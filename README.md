@@ -21,18 +21,18 @@ RF24SN Client is a library for Arduino compatible microcontrollers.
 
 Publish Usage:
 ```Arduino
-#define PUBLISH_TOPIC 1  //publishes to RF24SN/in/<nodeId>/1
+#define SENSOR_ID 1  //publishes to RF24SN/in/<nodeId>/1
        
 float measuredValue = 3.14; //replace this line with actual sensor reading code
-bool publishSuccess = rf24sn.publish(PUBLISH_TOPIC, measuredValue);
+bool publishSuccess = rf24sn.publish(SENSOR_ID, measuredValue);
 ```
 
 Request Usage:
 ```Arduino
-#define REQUEST_TOPIC 2  //request last payload fo RF24SN/out/<nodeId>/2
+#define SENSOR_ID 2  //request last payload fo RF24SN/out/<nodeId>/2
        
 float requestValue;
-bool requestSuccess = rf24sn.request(REQUEST_TOPIC, &requestValue);
+bool requestSuccess = rf24sn.request(SENSOR_ID, &requestValue);
 if(requestSuccess)
 {
    Serial.println(requestValue); //replace this line with some action code (moving servo, LED on, etc.)

@@ -85,7 +85,7 @@ For more details see [its own repository](https://github.com/VaclavSynacek/RF24S
 RF24SN use cases are very similar to the following solutions,
 but with the following diferencies:
 
-# MQTT-S(N)
+## MQTT-S(N)
 
 Both [MQTT-S](http://mqtt.org/MQTT-S_spec_v1.2.pdf)
 and RF24SN are meant to be MQTT simplifications for sensor
@@ -106,7 +106,7 @@ on a topics rather than waiting for the push.
 implementations only support ZigBee;
 RF24SN currently only suports nRF24l01 radio chips.
 
-# RFXduino
+## RFXduino
 
 Both [RFXduino](http://embeddedcoolness.com)
 and RF24SN implement client and server/gateway
@@ -120,7 +120,7 @@ SMS, shell command execution; RF24SN only supports publishing of and
 requests for individual values.
 * RF24SN is much easier to implement
 
-# RF24Network
+## RF24Network
 
 Both [RF24Network](https://maniacbug.github.io/RF24Network/)
 and RF24SN implement logic on top of [RF24](https://maniacbug.github.io/RF24/index.html)

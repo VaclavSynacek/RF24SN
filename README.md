@@ -55,7 +55,7 @@ platforms where there is nodejs and the [node-nrf](https://github.com/natevw/nod
 
 Usage:
 ```Shell
-sudo node index.js -b mqtt://localhost:1883 -spi /dev/spidev0.0 -ce 25 -irq 24
+sudo rf24sn -b mqtt://localhost:1883 -spi /dev/spidev0.0 -ce 25 -irq 24
 ```
 
 For more details see [its own repository](https://github.com/VaclavSynacek/RF24SN_nodejs_Server). 

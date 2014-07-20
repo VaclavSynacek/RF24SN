@@ -75,7 +75,7 @@ sudo RF24SN
 
 For more details see [its own repository](https://github.com/VaclavSynacek/RF24SN_CPP_Server).
 
-## RF24SN Spark Core Server
+### RF24SN Spark Core Server
 Not yet implemented.
 
 For more details see [its own repository](https://github.com/VaclavSynacek/RF24SN_Spark_Core_Server).

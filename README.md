@@ -51,8 +51,7 @@ has been tested.
 ### RF24SN on nodejs using node-nrf driver
 
 Full featured implementation with little dependencies. Should run on all
-platforms where there is nodejs and the [node-nrf](https://github.com/natevw/node-nrf) driver / [pi-spi](https://github.com/natevw/pi-spi) driver runs -
-currently it has been tested on Raspberry Pi.
+platforms where there is nodejs and the [node-nrf](https://github.com/natevw/node-nrf) driver / [pi-spi](https://github.com/natevw/pi-spi) driver - currently it has been tested on Raspberry Pi.
 
 Usage:
 ```Shell
@@ -132,5 +131,5 @@ with 6 children nodes and 1 parent node;
 RF24SN follows star topology with the base capable of communication with
 254 children nodes.
 * RF24Network supports transmission of any payload up to 32 bytes;
-RF24SN only supports publishing of and requests fro individual float values.
+RF24SN only supports publishing of and requests for individual float values.
 

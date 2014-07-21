@@ -62,11 +62,9 @@ For more details see [its own repository](https://github.com/VaclavSynacek/RF24S
 
 
 ### RF24SN in C++ using RF24 driver
-Implementation uses [RF24-rpi](https://github.com/jscrane/RF24-rpi) - a Raspberry Pi port of arduino [RF24](https://maniacbug.github.io/RF24/index.html) driver.
+Full featured C++ implementation on top of [RF24-rpi](https://github.com/jscrane/RF24-rpi) - a Raspberry Pi port of arduino [RF24](https://maniacbug.github.io/RF24/index.html) driver.
 Currently only runs on Raspberry Pi.
-Implementation is incomplete - the gateway communicates with RF24SN clients,
-but is not connected to MQTT broker (only prints received communication
-to standard out).
+
 
 Usage:
 ```Shell

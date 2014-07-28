@@ -74,7 +74,13 @@ sudo RF24SN
 For more details see [its own repository](https://github.com/VaclavSynacek/RF24SN_CPP_Server).
 
 ### RF24SN Spark Core Server
-Not yet implemented.
+
+Full featured implementation of [RF24SN](https://github.com/VaclavSynacek/RF24SN) for the [Spark Core](https://www.spark.io/). It uses the [SparkCore port](https://community.spark.io/t/mqtt-library-and-sample/2111) of [Arduino MQTT library](http://knolleary.net/arduino-client-for-mqtt/) and [SparkCore port](https://community.spark.io/t/nrf24l01-library-ported/2286) of [Arduino RF24 library](https://maniacbug.github.io/RF24/classRF24.html).
+
+
+Usage:
+
+flash to SparkCore, power up.
 
 For more details see [its own repository](https://github.com/VaclavSynacek/RF24SN_Spark_Core_Server).
 
